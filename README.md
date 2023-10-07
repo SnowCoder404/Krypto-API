@@ -9,7 +9,8 @@ Eine Open Source API zum automatisierten erstellen von Wallets für Kryptowähru
 <br><br>
 <h2>API Commands</h2>
 <h3>Erstellen von einen Bitcoin Wallet</h3>
-<p>IP\api\create\btc</p>
-
+<br>
+<p>0.0.0.0\api\create\btc</p>
+<br><br><br>
 
 <P>Version 1.0 ----- Only creating Bitcoin Wallet's </P>
