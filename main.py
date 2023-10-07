@@ -30,7 +30,7 @@ def wallet_create(random_key, network):
     wallet = Wallet.create(str(random_key))  # Wallet erstellen
     public_key = str(wallet.get_key().address)  # Public Key auslesen
     crypt_private_key = wallet.get_key().key_private  # Private Key auslesen
-    hex_private_key = 'xprv' + binascii.hexlify(crypt_private_key).decode('utf-8')
+    hex_private_key = binascii.hexlify(crypt_private_key).decode('utf-8')
     private_key = 'xprv' + hex_private_key[:64]
     keys = '{' + '"coin": ' + '"' + network + '","private_key": ' + '"' + private_key + '","public_key": ' + '"' + public_key + '","wallet_name": ' + '"' + random_key + '"' + '}'
     obj = json.loads(keys)
