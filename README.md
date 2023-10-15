@@ -13,4 +13,5 @@ Eine Open Source API zum automatisierten erstellen von Wallets für Kryptowähru
 <p>0.0.0.0\api\create\btc</p>
 <br><br><br>
 
+<P>Version 1.1 ----- Frondend implementation </P>
 <P>Version 1.0 ----- Only creating Bitcoin Wallet's </P>
